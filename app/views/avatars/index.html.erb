@@ -1,0 +1,7 @@
+<h1>Avatares</h1>
+
+<% @avatars.each do |avatar| %>
+  <div>
+    <img src="<%= avatar.url_image %>" alt="Avatar" style="width:150px; height:150px;">
+  </div>
+<% end %>
